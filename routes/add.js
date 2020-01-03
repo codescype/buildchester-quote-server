@@ -10,7 +10,12 @@ const db = admin.firestore().collection("quotes");
 
 /* GET users listing. */
 router.post("/", async function(req, res, next) {
-  if (!req.body) return;
+  if (!req.body) return res.json({
+    error: {
+      status: 400,
+      message: "NO DATA SUPPLIED"
+    }
+  });;
 
   if (await checkForExistingEmail(req.body.email)) {
     return res.json({
@@ -31,7 +36,7 @@ router.post("/", async function(req, res, next) {
     }
   }
 
-  console.info(`${process.env.DB_HOST}/quotes/${referenceId}.json`)
+  console.info(`${process.env.DB_HOST}/quotes/${referenceId}.json`);
 
   try {
     // const { data } = await axios({
@@ -44,11 +49,13 @@ router.post("/", async function(req, res, next) {
     //   }
     // });
 
-    const document = await db.doc(referenceId).set(req.body)
-    console.dir(document)
-    res.json({ ...document, referenceId });
-  } catch (e) {
-    res.status(400).json(e);
+    const document = await db.doc(referenceId).set(req.body);
+    console.dir(document);
+    res.json({ status: 'success', referenceId });
+  } catch (error) {
+    res.json({
+      error
+    });;
   }
 });
 
@@ -70,12 +77,9 @@ function randomValueHex(len) {
  */
 async function checkForExistingEmail(email) {
   try {
-    const snapshot = await db
-      .where("email", "==", email)
-      .get();
+    const snapshot = await db.where("email", "==", email).get();
     return !snapshot.empty;
-  }
-  catch (e) {
+  } catch (e) {
     return false;
   }
 }
@@ -87,12 +91,9 @@ async function checkForExistingEmail(email) {
  */
 async function checkForExistingDocument(id) {
   try {
-    const doc = await db
-      .doc(id)
-      .get();
+    const doc = await db.doc(id).get();
     return doc.exists;
-  }
-  catch (e) {
+  } catch (e) {
     return false;
   }
 }
