@@ -144,8 +144,9 @@ function sendEmailToAdmin(data) {
 function sendEmailToUser(data) {
   const mailData = {
     from: process.env.EMAIL_FROM,
-    to: process.env.EMAIL_ADMIN,
-    cc: process.env.EMAIL_ADMIN_CC,
+    // to: process.env.EMAIL_ADMIN,
+    to: data.email,
+    // cc: process.env.EMAIL_ADMIN_CC,
     //Subject and text data
     subject: "Quote Request Received",
     html: `Your quote request has been received. <br><br>
