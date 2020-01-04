@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "heroku-start": "node ./bin/www --HOST=0.0.0.0",
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
