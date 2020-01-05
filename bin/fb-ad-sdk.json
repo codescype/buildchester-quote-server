@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "buildchester-quote",
+  "private_key_id": "c99aa61d6f3e7fdd21f7486099ae02079205ee56",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCvk489wYtwBms0\nmvJLC9mxTrPb7TVjtWRBGXEaJvuU6p/nUE8fWiysuJyPdM2cRFyDGyoKpXGaILwh\n0r+FAbCvKZ6yCuHCZePyeU0ng7dIviMFZyYbDGi+yhk/ulOWm0vcleAIvwVMDFRW\n3SaMh/Y5ee32aMIL6PdLZv3goFpd5PikTgF91j4lfxC+wXfls8IHTLscLtsR4UU3\naUdMd4o1CGy1p/0sL+Ifw1Xm4M2RGablPaFODdzMjFRiYa0SOtOW5TGAQtvXOtWz\nOiin9+9UtzwVaxaGT7YoPn1UoIHqOMi6newu/hxqLdHtIcldU44UEt39JS2f6hQ6\n3F1dPgIxAgMBAAECggEAAcARgc4M5gZmuDCTa068tSNJB/3/3qkuBxSnKmVB6FSh\nhyyQGETH0Dr5oUxKvbQaB3Ixd/YnzOVmvCvDtXPdFonuW6eOY5ZPcI1+66GadzAK\nC8o+Cgy3ZDuB+5CEFOTzsskDhJcqiQithaYoGKFcWPb4P3PpnpJSGYIaAsy9spq5\nijQRp7ar+7ZigRjhIGc+AcTKl9WhS3ng9V+NOH2CyfH1UtHEsua6E90koiH2370Z\njMs6nLXEzEtih7joQElJBiFXjIOOLPlsswWBpzaB+k8g6A5Keuc9GlEu//dxsUNy\nOKIWLUfOrSUbzKFO7uLb0h9jsWWqoG4TlupWYHOXyQKBgQDmQtghK3YqtLdxmIF2\n+gdyTPd0YltgVQnTH6TkO2772pot65z4ITj8x7ZMi/HNgJvdEuHrjqTo7TGd+0l4\nzKFepSPXCEl4z7DYOQjRgLNdIMojpf3TrGU/o5aXaEc46g34KpEYdi9R367OgW3z\nqqS0UCJWuFsiOpdAXzaT7qyW7QKBgQDDM9tZOF4X0GNwHf7emDU5ug5ROITBvq3q\n97P7UV2epl6k7zJgEA1K9O8vpeXuh6iL+DRdxD9zDhu2PGz6XPikkaUx6mfd02t7\nmf5+CcxuZyUiTTkmPduSCEr6SzcYvXapIh+jipN/M1vt6wu51hoZhNdcuu6wycUq\n7BSQkoFL1QKBgQCMfvTJKG+tlx7nXRqBsgWhJH1Iskr2+GxKOeCuseUCH1w78KuS\naxMOif0dr7YWogZ4WfEnfZ350eCYeJ9X6eP8j97ScegCoxdQl1xeGJ1YkY1FOx8p\nbONKdVKJh8MNYyKq7a4istokpstOjYK9Tr24l7ycFVjmBcIMMQxoLxV38QKBgQC2\nUtBVVGXmfljylsHA7ZABXDwVNuIhCNXvOu/cFJKKJcEO8vAtc7DGy2JBMgZCtmkC\nW5Gl5zCQaaQOof/0FTSUmgkfR18+fUPOTfa7iLFuiV7Q3Co+Atb8XkyR3gEXVZfo\nwBunKD8+Nx1tavYn3MfCACcb0OozLDLCNYG7y2uDBQKBgQDXjj1MKlKRXGH+X8ML\nCwxExJprr3Q79gWP7STgqW+8tQcj2uZGo7m+ixhLGMqi/SRdszO9sAc2PknhDHB9\n1wTmlPDmtqP8Wh7YzH5SSE0Q9TyYewWPJGD1cFcbLWpVq7AoQ6+ygbbkm0Cwy7NZ\nSJ2gBlzOiXfpB/+ci7goBHFbYQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-x0smy@buildchester-quote.iam.gserviceaccount.com",
+  "client_id": "112888115727994016625",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-x0smy%40buildchester-quote.iam.gserviceaccount.com"
+}
